@@ -13,7 +13,7 @@ dr.Client()
 
 # Set some variables
 # path = "C:\\Users\\Brett\\Downloads\\datarobot_examples\\examples\\time_series\\"
-path = '/Users/brett.olmstead/Downloads/Demo Data/'
+# path = '/Users/brett.olmstead/Downloads/Demo Data/'
 filename = '10K_Lending_Club_Loans.csv'
 now = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M')
 project_name = 'DR_Demo_Retail_Multiseries_PROJECT_1_{}'.format(now)
