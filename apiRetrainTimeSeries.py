@@ -71,7 +71,7 @@ blueprintMenu = proj.get_blueprints()
 blueprintDF = pd.DataFrame(blueprintMenu)
 
 # Get a blueprint
-blueprint = blueprintMenu[3]
+blueprint = blueprintMenu[4]
 
 # Train the model from the blueprint, and wait until it's done before continuing
 # proj.train_datetime(blueprint.id)
